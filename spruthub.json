@@ -1,0 +1,673 @@
+{
+  "name": "DFPlayer Modbus",
+  "manufacturer": "esp_dfplayer",
+  "model": "1",
+  "modelIds": [
+    "esp_df_player_v1"
+  ],
+  "catalogId": 5741,
+  "services": [
+    {
+      "name": "Трек 1",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 1,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 2",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 2,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 3",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 3,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 4",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 4,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 5",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 5,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 6",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 6,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 7",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 7,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 8",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 8,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 9",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 9,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 10",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 10,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 11",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 11,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 12",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 12,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 13",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 13,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 14",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 14,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 15",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 15,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 16",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 16,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 17",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 17,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 18",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 18,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 19",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 19,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Трек 20",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 20,
+              "function": "Coil"
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Воспроизвести",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 1,
+              "function": "Holding",
+              "outMap": {
+                "true": 1,
+                "false": 0
+              }
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Зацикленное воспроизведение",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 2,
+              "function": "Holding",
+              "outMap": {
+                "true": 1,
+                "false": 0
+              }
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Стоп",
+      "type": "Switch",
+      "characteristics": [
+        {
+          "type": "On",
+          "link": [
+            {
+              "address": 3,
+              "function": "Holding",
+              "outMap": {
+                "true": 1,
+                "false": 0
+              }
+            }
+          ],
+          "data": {
+            "SwitchOffTime": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Громкость",
+      "type": "Lightbulb",
+      "characteristics": [
+        {
+          "type": "On",
+          "value": true
+        },
+        {
+          "type": "Brightness",
+          "link": [
+            {
+              "address": 5,
+              "function": "Holding",
+              "pollingTime": 5000
+            }
+          ],
+          "minValue": 0,
+          "maxValue": 30
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "name": "Номер трека",
+      "type": "Integer",
+      "inputType": "TEXT",
+      "value": 1,
+      "minValue": 1,
+      "maxValue": 9999,
+      "link": [
+        {
+          "address": 4,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ]
+    },
+    {
+      "name": "Эквалайзер",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 0,
+      "link": [
+        {
+          "address": 6,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 0,
+          "name": "Normal"
+        },
+        {
+          "value": 1,
+          "name": "Pop"
+        },
+        {
+          "value": 2,
+          "name": "Rock"
+        },
+        {
+          "value": 3,
+          "name": "Jazz"
+        },
+        {
+          "value": 4,
+          "name": "Classic"
+        },
+        {
+          "value": 5,
+          "name": "Bass"
+        }
+      ]
+    },
+    {
+      "name": "Скорость порта RS-485",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 3,
+      "link": [
+        {
+          "address": 7,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 0,
+          "name": "1200 бит/с"
+        },
+        {
+          "value": 1,
+          "name": "2400 бит/с"
+        },
+        {
+          "value": 2,
+          "name": "4800 бит/с"
+        },
+        {
+          "value": 3,
+          "name": "9600 бит/с"
+        },
+        {
+          "value": 4,
+          "name": "19200 бит/с"
+        },
+        {
+          "value": 5,
+          "name": "38400 бит/с"
+        },
+        {
+          "value": 6,
+          "name": "57600 бит/с"
+        },
+        {
+          "value": 7,
+          "name": "115200 бит/с"
+        }
+      ]
+    },
+    {
+      "name": "Чётность порта RS-485",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 0,
+      "link": [
+        {
+          "address": 8,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 0,
+          "name": "Нет (None)"
+        },
+        {
+          "value": 1,
+          "name": "Чётный (Even)"
+        },
+        {
+          "value": 2,
+          "name": "Нечётный (Odd)"
+        }
+      ]
+    },
+    {
+      "name": "Количество стоп-битов RS-485",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 2,
+      "link": [
+        {
+          "address": 9,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 1,
+          "name": "1"
+        },
+        {
+          "value": 2,
+          "name": "2"
+        }
+      ]
+    },
+    {
+      "name": "Modbus-адрес устройства",
+      "type": "Integer",
+      "inputType": "TEXT",
+      "value": 1,
+      "minValue": 1,
+      "maxValue": 247,
+      "link": [
+        {
+          "address": 10,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ]
+    },
+    {
+      "name": "Перезагрузить модуль",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 0,
+      "link": [
+        {
+          "address": 11,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 0,
+          "name": "Нет"
+        },
+        {
+          "value": 1,
+          "name": "Перезагрузить"
+        }
+      ]
+    },
+    {
+      "name": "OTA mode",
+      "type": "Integer",
+      "inputType": "LIST",
+      "value": 0,
+      "link": [
+        {
+          "address": 12,
+          "function": "Holding",
+          "pollingTime": 5000
+        }
+      ],
+      "values": [
+        {
+          "value": 0,
+          "name": "Нет"
+        },
+        {
+          "value": 1,
+          "name": "Да"
+        }
+      ]
+    }
+  ]
+}
